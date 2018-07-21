@@ -1,4 +1,4 @@
-class Admin::PreferencesController < ActiveRecord::base
+class Admin::PreferencesController < ActiveRecord::Base
     def index
 
     end
