@@ -1,4 +1,4 @@
-class PreferencesController < ActiveRecord::Base
+class Admin::PreferencesController < ActiveRecord::Base
     def index
         binding.pry
     end
