@@ -8,7 +8,6 @@ class ArtistsController < ApplicationController
   end
 
   def new
-      binding.pry
       @preference = Preference.all.first
       if @preference.allow_create_artists
           @artist = Artist.new
